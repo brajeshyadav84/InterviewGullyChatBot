@@ -1,1 +1,2 @@
-# InterviewGullyChatBot
+# ChatBot
+Chat application using NodeJS
