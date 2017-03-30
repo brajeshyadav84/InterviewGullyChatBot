@@ -191,7 +191,8 @@ $(function() {
   // Keyboard events
 
   $window.keydown(function (event) {
-    // Auto-focus the current input when a key is typed
+      event = event || window.event;
+      // Auto-focus the current input when a key is typed
     if (!(event.ctrlKey || event.metaKey || event.altKey)) {
       $currentInput.focus();
     }
